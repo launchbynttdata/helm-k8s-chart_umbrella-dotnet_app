@@ -1,0 +1,53 @@
+# Helm chart .gitignore
+
+# Ignore Helm chart packages
+*.tgz
+
+# Ignore Helm chart lock file
+Chart.lock
+
+# Ignore Helm chart dependencies
+charts/*
+
+# Ignore Helm chart secrets
+secrets.yaml
+
+# Ignore Helm chart release files
+*.release
+
+# Ignore Helm chart override files
+override.yaml
+
+# Ignore Helm chart test values
+test-values.yaml
+
+# Ignore Helm chart local values
+local-values.yaml
+
+# Ignore Helm chart local secrets
+local-secrets.yaml
+
+# Ignore Helm chart output files
+output.yaml
+
+# Ignore Helm chart temp files
+*.tmp
+
+# Ignore Helm chart backup files
+*.bak
+
+# Ignore Helm chart log files
+*.log
+
+# Ignore Helm chart debug files
+*.debug
+
+# Ignore Helm chart crash files
+*.crash
+
+# Ignore Helm chart dump files
+*.dump
+
+.idea
+.vscode
+.DS_Store
