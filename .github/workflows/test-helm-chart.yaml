@@ -1,0 +1,22 @@
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "main" ]
+
+name: test
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Test Helm Chart
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Test Helm Chart
+      uses: launchbynttdata/actions-helm-test@v0
+      with:
+        test_path: ./
+        value_file: ./values.yaml
