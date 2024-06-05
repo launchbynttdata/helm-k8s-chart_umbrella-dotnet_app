@@ -19,4 +19,4 @@ jobs:
       uses: launchbynttdata/actions-helm-test@v0
       with:
         test_path: ./
-        value_file: ./values.yaml
+        value_file: ./values.test.yaml
