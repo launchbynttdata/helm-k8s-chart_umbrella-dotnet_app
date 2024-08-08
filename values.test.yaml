@@ -1,0 +1,6 @@
+image:
+  repository: nginx
+  tag: latest
+
+env:
+  NGINX_PORT: 8080

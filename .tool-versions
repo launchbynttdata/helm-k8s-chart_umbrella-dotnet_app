@@ -1,3 +1,4 @@
 helm 3.14.3
+kubeconform 0.6.6
 kubectl 1.29.3
 pre-commit 3.3.3
